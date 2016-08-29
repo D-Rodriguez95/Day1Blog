@@ -1,0 +1,85 @@
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html {text-align: center; color:white;font-family: 'Cantarell', sans-serif;}
+
+#MidCol {background: none repeat scroll 0% 0% ;color:white;}
+#MidCol {width: 770px; 
+			margin-left: auto; 
+			margin-right: auto; 
+			padding-top: 35px; 
+			min-height: 100%; 
+			padding-left: 5px; 
+			padding-right: 0px}
+.shadow {border: medium none;
+		box-shadow:15px 12px 31px rgba(0, 0, 0, 0.48);}
+
+
+.ribbon {
+ font-size: 16px !important;
+ 
+
+ width: 50%;
+    
+ position: relative;
+ background: #DB1839;
+ color: white;
+ text-align: center;
+ padding: 1em 2em; 
+ margin: 2em auto 3em; 
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #C91432;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #AD102A transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+.logoleft {float:left;
+	position: absolute;
+	left:78.5%;
+	top:50px;}
+.logoright {float:right;
+	position: absolute;
+	right:78.5%;
+	top:50px;}
+
+a:link {color: yellow}
+a:visited {color:red;}
+a:hover {color:purple;}
+
+.left {float:left;}
+.right {float: right}	
